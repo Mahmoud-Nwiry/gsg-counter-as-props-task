@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.counter_box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.counter_box p {
+  margin-right: 15px;
+}
+
+.counter_box .btn {
+  font-size: 20px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter_box .btn.deccress {
+  background-color: #eb5f66;
+}
+
+.counter_box .btn.inccress {
+  background-color: #6df195;
+}
+
